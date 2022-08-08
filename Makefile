@@ -23,7 +23,7 @@ endif
 # FILES
 
 TARGET := hmmm
-VERSION := us_wii_r0
+VERSION := us_gc_r0
 
 BUILD_DIR := build/$(TARGET)_$(VERSION)
 

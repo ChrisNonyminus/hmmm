@@ -10,4 +10,4 @@ BSS_O_FILES := $(BUILD_DIR)/asm/bss.o
 SDATA_O_FILES := $(BUILD_DIR)/asm/sdata.o
 SBSS_O_FILES := $(BUILD_DIR)/asm/sbss.o
 SDATA2_O_FILES := $(BUILD_DIR)/asm/sdata2.o
-SBSS2_O_FILES := $(BUILD_DIR)/asm/sbss2.o
+SBSS2_O_FILES := 
