@@ -158,7 +158,7 @@ void add_bss(DOL_map *map, uint32_t paddr, uint32_t memsz)
 		// Total BSS size should be the end of the last bss section minus the
 		// start of the first bss section.
 		if (paddr + memsz > curr_start + curr_size)
-			map->header.bss_size = swap32(paddr + memsz - curr_start - 0x1C); // regarding 0x1C: i do not like this, but I have to do this to avoid weirdness with the bss size mismatching (linker generates it as 00073A40 instead of 00073A24)
+			map->header.bss_size = swap32(paddr + memsz - curr_start);
 	} else {
 		map->header.bss_addr = swap32(paddr);
 		map->header.bss_size = swap32(memsz);
