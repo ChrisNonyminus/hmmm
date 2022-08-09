@@ -7811,4 +7811,3 @@ lbl_8001849C:
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0

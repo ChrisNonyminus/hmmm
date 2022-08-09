@@ -35777,9 +35777,3 @@ lbl_801EF298:
 	# ROM: 0x1EC298
 	.asciz "MDLCard::Card"
 	.balign 4
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0

@@ -17614,8 +17614,3 @@ lbl_803263E8:
 lbl_803263EC:
 
 	# ROM: 0x2B05CC
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
