@@ -206127,5 +206127,3 @@ lbl_802AED10:
 	.4byte lbl_801CE7B0
 	.4byte lbl_801CE7C4
 	.4byte lbl_801CE7D8
-	.4byte 0
-	.4byte 0

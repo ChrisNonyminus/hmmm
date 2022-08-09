@@ -10,8 +10,3 @@ lbl_801CEA40:
 	.4byte func_8019C2B8
 	.4byte lbl_8019CEC0
 	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0

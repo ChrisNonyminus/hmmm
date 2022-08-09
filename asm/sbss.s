@@ -2433,4 +2433,4 @@ lbl_8032275C:
 
 .global lbl_80322760
 lbl_80322760:
-	.skip 0x20
+	.skip 0x4
