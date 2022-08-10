@@ -2,20 +2,6 @@
 
 .section .sdata, "wa"  # 0x80321080 - 0x80321CA0 ; 0x00000C20
 
-.global lbl_80321080
-lbl_80321080:
-
-	# ROM: 0x2ABD40
-	.4byte lbl_801CEAE0
-	.4byte 0
-
-.global lbl_80321088
-lbl_80321088:
-
-	# ROM: 0x2ABD48
-	.4byte lbl_801CEAD0
-	.4byte lbl_80202994
-
 .global lbl_80321090
 lbl_80321090:
 

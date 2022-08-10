@@ -2,11 +2,6 @@
 
 .section .bss, "", @nobits  # 0x802AED40 - 0x80321080 ; 0x00072340
 
-
-.global lbl_802AED40
-lbl_802AED40:
-	.skip 0x10
-
 .global lbl_802AED50
 lbl_802AED50:
 	.skip 0xC

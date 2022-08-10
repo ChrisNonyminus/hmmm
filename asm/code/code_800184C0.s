@@ -9570,6 +9570,68 @@ lbl_80020A2C:
 /* 80020A50 0000AB70  38 21 02 40 */	addi r1, r1, 0x240
 /* 80020A54 0000AB74  4E 80 00 20 */	blr
 
+
+
+.section .rodata, "wa"  # 0x801CEA60 - 0x801EF2C0 ; 0x00020860
+
+
+.global lbl_801CEA60
+lbl_801CEA60:
+
+	# ROM: 0x1CBA60
+	.4byte 0x00220074
+	.4byte 0x00230075
+	.4byte 0x00240076
+	.4byte 0x00250077
+	.4byte 0x00260078
+	.4byte 0x00270079
+	.4byte 0x002F007A
+	.4byte 0x0034007B
+	.4byte 0x0038007C
+	.4byte 0x003B007D
+	.4byte 0x003D007E
+	.4byte 0x0045007F
+	.4byte 0x00480080
+
+.global lbl_801CEA94
+lbl_801CEA94:
+
+	# ROM: 0x1CBA94
+	.4byte 0x41700000
+	.4byte 0x42480000
+	.4byte 0x425C0000
+
+.global lbl_801CEAA0
+lbl_801CEAA0:
+
+	# ROM: 0x1CBAA0
+	.4byte 0x00080004
+	.4byte 0x000A0006
+	.4byte 0x000B0007
+	.4byte 0x00090005
+	.4byte 0x00380034
+	.4byte 0x003A0036
+	.4byte 0x003B0037
+	.4byte 0x00390035
+	.4byte 0x00250021
+	.4byte 0x00270023
+	.4byte 0x00280024
+	.4byte 0x00260022
+
+.global lbl_801CEAD0
+lbl_801CEAD0:
+
+	# ROM: 0x1CBAD0
+	.asciz "CharaCollision"
+	.balign 4
+
+.global lbl_801CEAE0
+lbl_801CEAE0:
+
+	# ROM: 0x1CBAE0
+	.asciz "MDLCol::Collision"
+	.balign 4
+
 .section .data, "wa"  # 0x801EF2C0 - 0x802AED40 ; 0x000BFA80
 
 
@@ -30439,6 +30501,29 @@ lbl_80202A28:
 	.4byte lbl_8001D3D0
 
 
+
+.section .bss, "", @nobits  # 0x802AED40 - 0x80321080 ; 0x00072340
+
+
+.global lbl_802AED40
+lbl_802AED40:
+	.skip 0x10
+
+.section .sdata, "wa"  # 0x80321080 - 0x80321CA0 ; 0x00000C20
+
+.global lbl_80321080
+lbl_80321080:
+
+	# ROM: 0x2ABD40
+	.4byte lbl_801CEAE0
+	.4byte 0
+
+.global lbl_80321088
+lbl_80321088:
+
+	# ROM: 0x2ABD48
+	.4byte lbl_801CEAD0
+	.4byte lbl_80202994
 
 .section .sbss, "", @nobits  # 0x80321CA0 - 0x80322780 ; 0x00000AE0
 
