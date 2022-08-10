@@ -6637,7 +6637,7 @@ lbl_80010AE0:
 	.4byte func_801B482C
 	.4byte 0x0000026C
 	.4byte lbl_8000FB80
-	.4byte func_801B4A98
+	.4byte main
 	.4byte 0x0000002C
 	.4byte lbl_8000FC48
 	.4byte func_801B4AC4
