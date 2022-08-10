@@ -15,7 +15,7 @@ func_800184CC:
 /* 800184D0 000025F0  98 03 00 44 */	stb r0, 0x44(r3)
 /* 800184D4 000025F4  4E 80 00 20 */	blr
 
-.global lbl_800184D8
+.global lbl_800184D8 ;# https://decomp.me/scratch/1MStr
 lbl_800184D8:
 /* 800184D8 000025F8  94 21 FF 90 */	stwu r1, -0x70(r1)
 /* 800184DC 000025FC  7C 08 02 A6 */	mflr r0

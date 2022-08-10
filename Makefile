@@ -127,9 +127,7 @@ $(LDSCRIPT_DOL): ldscript.lcf
 $(DOL): $(ELF) | tools
 	$(QUIET) $(ELF2DOL) $< $@
 	$(QUIET) $(SHA1SUM) -c $(NAME).sha1
-ifneq ($(findstring -map,$(LDFLAGS)),)
-#	$(QUIET) $(PYTHON) tools/calcprogress.py $@
-endif
+	$(QUIET) $(PYTHON) calcprogress.py $(DOL) $(MAP)
 
 clean:
 	rm -f -d -r $(BUILD_DIR)
