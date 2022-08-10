@@ -1,7 +1,9 @@
 INIT_O_FILES := $(BUILD_DIR)/asm/init.o 
 EXTAB_O_FILES := $(BUILD_DIR)/asm/extab_.o
 EXTABINDEX_O_FILES := $(BUILD_DIR)/asm/extabindex_.o
-TEXT_O_FILES := $(BUILD_DIR)/asm/text.o
+TEXT_O_FILES := \
+				$(BUILD_DIR)/asm/code/code_800184C0.o\
+				$(BUILD_DIR)/asm/text.o
 CTORS_O_FILES := $(BUILD_DIR)/asm/ctors.o
 DTORS_O_FILES := $(BUILD_DIR)/asm/dtors.o
 RODATA_O_FILES := $(BUILD_DIR)/asm/rodata.o

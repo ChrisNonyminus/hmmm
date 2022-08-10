@@ -3,18 +3,6 @@
 .section .sbss, "", @nobits  # 0x80321CA0 - 0x80322780 ; 0x00000AE0
 
 
-.global lbl_80321CA0
-lbl_80321CA0:
-	.skip 0x4
-
-.global lbl_80321CA4
-lbl_80321CA4:
-	.skip 0x4
-
-.global lbl_80321CA8
-lbl_80321CA8:
-	.skip 0x8
-
 .global lbl_80321CB0
 lbl_80321CB0:
 	.skip 0x4
