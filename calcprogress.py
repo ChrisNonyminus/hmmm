@@ -198,9 +198,9 @@ if __name__ == "__main__":
     print(f"\tData sections: {decomp_data_size} / {dol_data_size} bytes in src ({dataCompletionPcnt:%})")
 
     if ((decomp_code_size / bytesPerMusicNote).is_integer and noteCount > 0): # new music note!
-        print("LUCKY! You got a new music note: the {} music note." % last_decomped_object)
+        print("LUCKY! You got a new music note: the {} music note.\n" % last_decomped_object)
 
-    print("\nYou have {} of 100 Music Notes and completed {} of 5 house upgrades.\n".format(noteCount, upgradeCount))
+    print("You have {} of 100 Music Notes and completed {} of 5 house upgrades.\n".format(noteCount, upgradeCount))
     instruments = ["Marimba", "Timpani", "Harp", "Piano", "Violin", "Cello", "Flute", "Guitar", "Trumpet", "Orchestra"]
     if (noteCount >= 5):
         print("Instruments: " + "\t".join(instruments[:noteCount/5]))
